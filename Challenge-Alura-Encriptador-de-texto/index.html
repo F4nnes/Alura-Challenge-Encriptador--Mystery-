@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="reset.css/reset.css">
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Mystery</title>
+</head>
+
+<body>
+    <section class="general">
+
+        <header class="container__titulo">
+
+            <div class="titulo__encri">
+                <h1>Encriptador</h1>
+            </div>
+            <!-- insertar los links de las paginas en href -->
+            <a class="icon" href="https://github.com/F4nnes" rel="noopener noreferrer" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+
+            <!-- insertar los links de las paginas en href -->
+            <a class="icon" href="https://www.linkedin.com/in/eli-tonatiúh-flores-jasso-a9956b2b0/" rel="noopener noreferrer"
+                target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+
+        </header>
+
+        <section class="containerA">
+
+            <div class="containerA__area_campo">
+                <textarea id="texto_encriptado" class="campo__texto"
+                    placeholder="Esperando mensaje secreto..."></textarea>
+
+                <textarea id="texto_desencriptado" class="campo__mensaje" placeholder="Preparando mensaje..."
+                    readonly></textarea>
+            </div>
+            <div class="containerA__info">
+                <a class="alerta">
+                    <ion-icon name="alert-circle-outline"></ion-icon>
+                    <span class="advert">Solo se permiten letras minúsculas y sin carácteres especiales.</span>
+                </a>
+            </div>
+
+        </section>
+
+        <section class="containerB">
+            <div class="containerB_btn">
+                <button class="btn_encriptar" id="funcion_encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn_desencriptar" id="funcion_desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                <button class="btn_copiar" id="funcion_copiar" onclick="copiarAlPortapapeles()"> Copiar</button>
+                <button class="btn_pegar" id="funcion_pegar" onclick="pegar()" >Pegar</button>
+            </div>
+        </section>
+
+        <section class="pie-de-pagina">
+            <footer class="pie-de-pagina__final">
+                <div class="logo">
+                    <img src="/imagenes/Logo.png" alt="logo-alura-latam">
+                </div>
+                <div class="final__datos">
+                    <h1>Alura Latam</h1>
+                </div>
+            </footer>
+        </section>
+
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+    <script src="/js/main.js"></script>
+
+</body>
+
+</html>

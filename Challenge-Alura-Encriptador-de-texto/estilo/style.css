@@ -1,0 +1,156 @@
+/*Paleta de colores para estilo*/
+:root {
+    --color-fondo-principal: rgb(255, 255, 255);
+    --color-fondo-footer: rgb(116, 116, 116);
+    --color-fondo-header: rgb(224, 176, 44);
+
+    --color-boton: rgb(0, 0, 0);
+
+    --color-texto-titulo: rgb(0, 0, 0);
+    --color-texto-final: rgb(238, 238, 238);
+    --color-texto-informativo: rgb(105, 105, 105);
+}
+
+/*Fondo general*/
+body {
+    background-color: var(--color-fondo-principal);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Sección de header*/
+.container__titulo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    padding: 20px;
+    background-color: var(--color-fondo-header);
+    color: var(--color-texto-titulo);
+    gap: 45px;
+}
+
+.titulo__encri {
+    display: flex;
+    margin-right: 6%;
+}
+
+.titulo__encri {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.icon {
+    color: black;
+    text-decoration: none;
+}
+
+/*Sección de areas de texto*/
+.containerA__area_campo {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+/*textarea de encriptar*/
+.campo__texto {
+    height: 350px;
+    width: 500px;
+    border-radius: 10px;
+    outline: none;
+    padding: 8px;
+}
+
+/*textarea de desencriptar*/
+.campo__mensaje {
+    height: 350px;
+    width: 200px;
+    border-radius: 10px;
+    outline: none;
+    padding: 8px;
+}
+
+/*leyenda aclarativa*/
+.alerta {
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px 5px 5px 200px;
+    align-items: center;
+    gap: 5px;
+}
+
+.advert {
+    font-size: 12px;
+    font-weight: lighter;
+    color: var(--color-texto-informativo);
+}
+
+/*Sección de botones de funcionamiento*/
+.containerB_btn {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 22px;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    border-color: var(--color-boton);
+    padding: 10px 20px;
+    color: var(--color-boton);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*Estilo para botones*/
+.btn_encriptar:hover,
+focus {
+    color: #ffffff;
+    background: #232c33;
+    border: 1px solid #3f3f3f;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #ffbb00, 0 0 20px #ffbb00, 0 0 50px #ffbb00, 0 0 100px #ffbb00;
+}
+
+.btn_desencriptar:hover,
+focus {
+    color: #ffffff;
+    background: #232c33;
+    border: 1px solid #3f3f3f;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #ffbb00, 0 0 20px #ffbb00, 0 0 50px #ffbb00, 0 0 100px #ffbb00;
+}
+
+.btn_copiar:hover,
+focus {
+    color: #ffffff;
+    background: #232c33;
+    border: 1px solid #3f3f3f;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #ffbb00, 0 0 20px #ffbb00, 0 0 50px #ffbb00, 0 0 100px #ffbb00;
+}
+
+.btn_pegar:hover,
+focus {
+    color: #ffffff;
+    background: #232c33;
+    border: 1px solid #3f3f3f;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #ffbb00, 0 0 20px #ffbb00, 0 0 50px #ffbb00, 0 0 100px #ffbb00;
+}
+
+/*Sección para pie de pagina*/
+.pie-de-pagina__final {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px 0 10px 0;
+    background-color: var(--color-fondo-footer);
+}
+
+.final__datos {
+    color: var(--color-texto-final);
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*Sección responsiva encriptador*/
