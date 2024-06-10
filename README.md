@@ -14,3 +14,10 @@
 - `HTML`
 - `CSS`
 - `Javascript`
+
+
+## Referencias del proyecto
+-`Vista del proyecto en navegador`
+![Captura de pantalla 2024-06-10 143758](https://github.com/F4nnes/Alura-Challenge-Encriptador--Mystery-/assets/158781928/69e8a4fd-0617-4351-b3cc-baa5d7ecac55)
+-`Vista de los distintos codigos utilizados para el desarollo en plataforma Visual Studio Code`
+![Captura de pantalla 2024-06-10 144514](https://github.com/F4nnes/Alura-Challenge-Encriptador--Mystery-/assets/158781928/38078af3-5010-4fb4-887a-be0f695df6ed)
